@@ -1,0 +1,8 @@
+name: phylogen_tut
+channels:
+  - conda-forge
+  - base
+  - R
+dependencies:
+  - r-base
+  - r-tidyverse
