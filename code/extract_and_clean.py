@@ -15,8 +15,9 @@ OUT_META  = Path("results/metadata.csv")
 
 # --- simple country dictionary (extend as needed) -------------
 countries = [
-    "Nigeria", "Kenya", "Cameroon", "Senegal", "USA",
-    "China", "Brazil", "South_Africa", "India"
+    "USA", "Ghana", "Cameroon", "Guinea-Bissau", "Gabon", "Democratic Republic of the Congo", 
+     "Angola","Spain","Liberia", "Pakista", "Cyprus", "Sweden", "Guinea-Bissau",
+      "Togo", "Kenya", "Nigeria", "Uganda", "India", "Brazil", "China", "South Korea", "Russia"
 ]
 # --------------------------------------------------------------
 
