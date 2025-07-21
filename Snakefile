@@ -4,7 +4,8 @@
 
 rule all:
     input:
-        "results/ML_rooted_tree.svg"
+        "results/ML_rooted_tree.svg",
+        "results/ML_final_tree.tiff" 
 
 rule extract_clean:
     input:

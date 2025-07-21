@@ -1,8 +1,25 @@
 name: phylogen_tut
 channels:
   - conda-forge
-  - base
-  - R
+  - bioconda
+  - defaults
+
 dependencies:
-  - r-base
+  - python=3.10
+  - biopython
+  - pandas
+  - matplotlib
+  - toytree
+  - ete3
+
+  - r-base=4.1
   - r-tidyverse
+  - r-ape
+  - r-phangorn
+  - bioconductor-ggtree
+  - snakemake=7.32.4
+
+  - pip
+  - pip:
+      - cairosvg
+      - pillow
